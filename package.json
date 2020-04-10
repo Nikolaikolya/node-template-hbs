@@ -1,0 +1,27 @@
+{
+  "name": "node_project",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint .",
+    "dev": "cross-env nodemon node index.js"
+  },
+  "author": "Kolyan",
+  "license": "MIT",
+  "dependencies": {
+    "cross-env": "^7.0.2",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.3",
+    "mongoose": "^5.9.7",
+    "nodemon": "^2.0.3"
+  },
+  "devDependencies": {
+    "eslint": "^6.8.0",
+    "eslint-config-standard": "^14.1.1",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1"
+  }
+}
